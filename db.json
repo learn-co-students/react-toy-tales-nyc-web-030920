@@ -47,6 +47,12 @@
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
       "likes": -2
+    },
+    {
+      "id": 9,
+      "name": "Pillsbury Doughboy",
+      "image": "https://i.ebayimg.com/images/g/Q-cAAOSwvdxdWyOe/s-l640.jpg",
+      "likes": 10
     }
   ]
 }
