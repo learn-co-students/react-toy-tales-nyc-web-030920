@@ -4,13 +4,13 @@
       "id": 1,
       "name": "Woody",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 5
+      "likes": 10
     },
     {
       "id": 2,
       "name": "Buzz Lightyear",
       "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 8
+      "likes": 10
     },
     {
       "id": 3,
@@ -47,6 +47,30 @@
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
       "likes": -2
+    },
+    {
+      "name": "Snowball",
+      "image": "https://www.websweepuk.com/Iconic/SC1375-2.jpg",
+      "likes": 5,
+      "id": 10
+    },
+    {
+      "name": "Max",
+      "image": "https://cdn11.bigcommerce.com/s-ydriczk/images/stencil/original/products/88923/92961/The-Secret-Life-of-Pets-2-Max-terrier-dog-cardboard-cutout-buy-now-at-starstills__18674.1559323388.jpg?c=2&imbypass=on",
+      "likes": 5,
+      "id": 11
+    },
+    {
+      "name": "Chole",
+      "image": "https://vignette.wikia.nocookie.net/p__/images/b/ba/Chloe_the_secret_life_of_pets.png/revision/latest?cb=20161016012709&path-prefix=protagonist",
+      "likes": 4,
+      "id": 12
+    },
+    {
+      "name": "Gidget",
+      "image": "https://vignette.wikia.nocookie.net/heroes-and-villians/images/3/3b/Gidget_the_secret_life_of_pets.png/revision/latest?cb=20171002001922",
+      "likes": 3,
+      "id": 13
     }
   ]
 }
