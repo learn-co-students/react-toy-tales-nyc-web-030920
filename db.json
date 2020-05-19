@@ -49,16 +49,10 @@
       "likes": 7
     },
     {
-      "name": "Po",
-      "image": "https://media.4rgos.it/s/Argos/4813437_R_SET?$Main768$&w=620&h=620",
-      "likes": 5,
-      "id": 9
-    },
-    {
-      "name": "Baby Yoda",
-      "image": "https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/1231047442892?$pdpXL2x$&fmt=webp&qlt=70",
-      "likes": 5,
-      "id": 10
+      "id": 9,
+      "name": "Spawn",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQTtnAd_V53lz4Mr-FUgNonBnI9P92x8qmoMw5Jyles9Hll85PbqCrrffyVW0TLV87so3dYkHfjR3NIMB-4Ic3A30pKPLoHOFW6UAag9ir310pPV_V6wewQsQ&usqp=CAE",
+      "likes": 0
     }
   ]
 }
