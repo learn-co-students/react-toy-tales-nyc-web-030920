@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Woody",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 5
+      "likes": 10
     },
     {
       "id": 2,
@@ -46,7 +46,19 @@
       "id": 8,
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
-      "likes": -2
+      "likes": 7
+    },
+    {
+      "name": "Po",
+      "image": "https://media.4rgos.it/s/Argos/4813437_R_SET?$Main768$&w=620&h=620",
+      "likes": 5,
+      "id": 9
+    },
+    {
+      "name": "Baby Yoda",
+      "image": "https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/1231047442892?$pdpXL2x$&fmt=webp&qlt=70",
+      "likes": 5,
+      "id": 10
     }
   ]
 }
