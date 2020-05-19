@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Woody",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 2
+      "likes": 7
     },
     {
       "id": 2,
@@ -46,12 +46,12 @@
       "id": 9,
       "name": "Pillsbury Doughboy",
       "image": "https://i.ebayimg.com/images/g/Q-cAAOSwvdxdWyOe/s-l640.jpg",
-      "likes": 10
+      "likes": 14
     },
     {
       "name": "Sporky",
       "image": "https://goat.com.au/wp-content/uploads/2018/11/Screen-Shot-2018-11-13-at-10.23.34-am-e1542067723195.png",
-      "likes": 5,
+      "likes": 11,
       "id": 10
     }
   ]

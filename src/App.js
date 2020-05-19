@@ -75,7 +75,7 @@ class App extends React.Component{
 
   handleClickLikes = (id, likes) => {
 
-    // how to just patch the likes instead of the whole 
+    // how to just patch the likes instead of the whole object
     let newLikes = {likes: likes + 1}
 
     let options = {
@@ -90,15 +90,49 @@ class App extends React.Component{
     fetch(`http://localhost:3000/toys/${id}`, options)
       .then(r => r.json())
       .then(updatedToy => {
-        let newToys = this.state.toys.map((toy) => {
-          return toy.id === id ? updatedToy : toy
-        })
         this.setState({
-            toys: newToys 
+          toys: this.state.toys.map(toy => toy.id === id ? updatedToy : toy)
         })
+      })
+    // fetch(`http://localhost:3000/toys/${id}`, options)
+    //   .then(r => r.json())
+    //   .then(updatedToy => {
+    //     let newToys = this.state.toys.map((toy) => {
+    //       return toy.id === id ? updatedToy : toy
+    //     })
+    //     this.setState({
+    //         toys: newToys 
+    //     })
+    //   })
+
+  }
+
+  handleEditPatch = (id) => {
+  
+    let { state1, state2, state3, state4 } = this.state
+  
+    let newObj = { state1, state2, state3, state4 }
+  
+    let options = {
+      method: 'PATCH', 
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json'
+      },
+      body: JSON.stringify(newObj)
+    }
+  
+    fetch(`http://localhost:3000/endpoint/id`, options )
+      .then(r => r.json())
+      .then(updatedObject => {
+        this.setState({ 
+          array: this.state.array.map(item => item.id === id ? updatedObject : item), 
+          id: null, state1: '', state2: '', state3: '', state4: '' })
       })
   }
 
+
+  
 
   render(){
     let {id, name, image, likes, display} = this.state

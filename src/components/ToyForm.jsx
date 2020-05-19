@@ -6,7 +6,7 @@ class ToyForm extends Component {
 
   render() {
 
-    const {handleSubmit, handleChange, id, name, image} = this.props
+    const {handleSubmit, handleChange, name, image} = this.props
     // test out putting handle Change just on the form 
   
     return (

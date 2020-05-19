@@ -6,7 +6,11 @@ const ToyContainer = (props) => {
   return(
 
     <div id="toy-collection">
-      {props.toys.map((toy, index) => <ToyCard key={index} {...toy} handleDelete={props.handleDelete} handleClickLikes={props.handleClickLikes} /> )}
+      {props.toys.map((toy, index) => <ToyCard 
+      key={index} 
+      {...toy} 
+      handleDelete={props.handleDelete} 
+      handleClickLikes={props.handleClickLikes} /> )}
     </div>
   );
 }
